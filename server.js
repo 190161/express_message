@@ -1,5 +1,5 @@
 //express　モジュールの読み込み
-const express = reauire('express');
+const express = require('express');
 
 //サーバーの作成
 const app = express();
@@ -18,4 +18,4 @@ app.get("/", (req, res) => {
 
 app.listen(3000);
 
-console.log('Server listen: http:/localhost:3000');
+console.log('Server listen: http://localhost:3000');
