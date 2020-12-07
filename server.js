@@ -25,6 +25,7 @@ app.use((req, res, next) => {
 app.post('/', (req, res) => {
     let result = {
         message: req.body.message,
+        datetime: new Date(),
     };
     res.send(result);
 });
